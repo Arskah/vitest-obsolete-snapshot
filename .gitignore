@@ -1,0 +1,59 @@
+.DS_Store
+
+# NPM token for Yarn
+NPM_AUTH_TOKEN
+
+# Yarn recommended gitignore for zero-installs
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# IDE settings/prefs
+.fleet/
+.idea/
+
+# Local dev files
+node_modules
+yarn-error.log
+.tool-versions
+.eslintcache
+
+# Local config file with possible secrets
+.env
+.env_*
+
+
+# TS build directory
+js
+
+# Bundled CLI (or other) packages
+*.tgz
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Schemathesis
+.hypothesis
+
+# This has secrets
+.npmrc
+
+# Test coverages
+coverage/
+sonar-report.xml
+report-blobs/
+.vitest-reports/
+
+# Python cache
+*.pyc
+/**/.pytest_cache
+__pycache__
+
+# Project files, TODO: investigate what these are for
+common/tests/resources/zuora/orders/*/*.json
+cli/catalogs/
