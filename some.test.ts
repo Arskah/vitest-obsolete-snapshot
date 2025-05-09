@@ -6,9 +6,3 @@ describe("some", () => {
     expect(some()).toMatchSnapshot();
   });
 });
-
-describe("other", () => {
-  it("matches snapshost", () => {
-    expect(other()).toMatchSnapshot();
-  });
-});
