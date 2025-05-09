@@ -1,0 +1,22 @@
+{
+  "name": "vitest-obsolete-snapshot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arskah/vitest-obsolete-snapshot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arskah/vitest-obsolete-snapshot/issues"
+  },
+  "homepage": "https://github.com/Arskah/vitest-obsolete-snapshot#readme",
+  "description": "",
+  "dependencies": {
+    "vitest": "^3.1.3"
+  }
+}
